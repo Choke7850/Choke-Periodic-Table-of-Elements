@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-alkali-metal: #ecbe59;
+  --color-alkaline-earth-metal: #dee955;
+  --color-lanthanoid: #ec77a3;
+  --color-actinoid: #c686cc;
+  --color-transition-metal: #fd8572;
+  --color-post-transition-metal: #4cddf3;
+  --color-metalloid: #3aefb6;
+  --color-other-nonmetal: #52ee61;
+  --color-noble-gas: #759fff;
+  --color-unknown: #cccccc;
+}
+
+body {
+  background-color: #101318;
+  color: white;
+}
+
+.grid-cols-18 {
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+}
